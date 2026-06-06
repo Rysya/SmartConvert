@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		59B2C40E2FD311AC00F849CE /* ConvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40A2FD311AC00F849CE /* ConvertView.swift */; };
+		59B2C40F2FD311AC00F849CE /* SmartConvertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */; };
+		59B2C4102FD311AC00F849CE /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40C2FD311AC00F849CE /* UnitType.swift */; };
+		59B2C4112FD311AC00F849CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B2C4092FD311AC00F849CE /* Assets.xcassets */; };
+		59B2C4152FD311D900F849CE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C4142FD311D900F849CE /* Product.swift */; };
+		59B2C4172FD3150A00F849CE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C4162FD314FE00F849CE /* DataStore.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		59B2C3F92FD2D2F400F849CE /* SmartConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B2C4092FD311AC00F849CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59B2C40A2FD311AC00F849CE /* ConvertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertView.swift; sourceTree = "<group>"; };
+		59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartConvertApp.swift; sourceTree = "<group>"; };
+		59B2C40C2FD311AC00F849CE /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
+		59B2C4142FD311D900F849CE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		59B2C4162FD314FE00F849CE /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		59B2C3FB2FD2D2F400F849CE /* SmartConvert */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SmartConvert;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		59B2C3F62FD2D2F400F849CE /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		59B2C3F02FD2D2F400F849CE = {
 			isa = PBXGroup;
 			children = (
-				59B2C3FB2FD2D2F400F849CE /* SmartConvert */,
+				59B2C40D2FD311AC00F849CE /* SmartConvert */,
 				59B2C3FA2FD2D2F400F849CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,35 @@
 				59B2C3F92FD2D2F400F849CE /* SmartConvert.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59B2C40D2FD311AC00F849CE /* SmartConvert */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */,
+				59B2C4092FD311AC00F849CE /* Assets.xcassets */,
+				59B2C4162FD314FE00F849CE /* DataStore.swift */,
+				59B2C4122FD311B100F849CE /* View */,
+				59B2C4132FD311BE00F849CE /* Model */,
+			);
+			path = SmartConvert;
+			sourceTree = "<group>";
+		};
+		59B2C4122FD311B100F849CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40A2FD311AC00F849CE /* ConvertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59B2C4132FD311BE00F849CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40C2FD311AC00F849CE /* UnitType.swift */,
+				59B2C4142FD311D900F849CE /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				59B2C3FB2FD2D2F400F849CE /* SmartConvert */,
 			);
 			name = SmartConvert;
 			packageProductDependencies = (
@@ -109,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B2C4112FD311AC00F849CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B2C40E2FD311AC00F849CE /* ConvertView.swift in Sources */,
+				59B2C4152FD311D900F849CE /* Product.swift in Sources */,
+				59B2C40F2FD311AC00F849CE /* SmartConvertApp.swift in Sources */,
+				59B2C4172FD3150A00F849CE /* DataStore.swift in Sources */,
+				59B2C4102FD311AC00F849CE /* UnitType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
