@@ -1,5 +1,3 @@
-
-
 class DataStore {
     var products: [Product] = [
         Product(title: "Вода", imageName: "water"),
