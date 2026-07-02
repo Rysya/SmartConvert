@@ -6,33 +6,90 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		59B2C3F92FD2D2F400F849CE /* SmartConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		5908E6372FDE48B200F9BF28 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908E6362FDE48A500F9BF28 /* Measure.swift */; };
+		5908E6452FE565EE00F9BF28 /* ConvertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908E6442FE565EE00F9BF28 /* ConvertViewModel.swift */; };
+		5908E64D2FE5917600F9BF28 /* ConvertResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908E64C2FE5917600F9BF28 /* ConvertResult.swift */; };
+		5908E6502FE5A4D700F9BF28 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908E64F2FE5A4D700F9BF28 /* RealmService.swift */; };
+		5908E6552FE5CB1400F9BF28 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5908E6542FE5CB1400F9BF28 /* RealmSwift */; };
+		597C76E52FF6550C00AAD5E8 /* IngredientEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76E42FF654F400AAD5E8 /* IngredientEntry.swift */; };
+		597C76E72FF671F700AAD5E8 /* SmartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76E62FF671F100AAD5E8 /* SmartButton.swift */; };
+		597C76EA2FF68DEB00AAD5E8 /* SmartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76E92FF68DDD00AAD5E8 /* SmartTextField.swift */; };
+		597C76EC2FF6969200AAD5E8 /* UnitPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76EB2FF6968A00AAD5E8 /* UnitPicker.swift */; };
+		597C76EE2FF697CB00AAD5E8 /* ProductPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76ED2FF697C500AAD5E8 /* ProductPicker.swift */; };
+		597C76F02FF69CFA00AAD5E8 /* UnitHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C76EF2FF69CF200AAD5E8 /* UnitHStack.swift */; };
+		59B2C40E2FD311AC00F849CE /* ConvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40A2FD311AC00F849CE /* ConvertView.swift */; };
+		59B2C40F2FD311AC00F849CE /* SmartConvertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */; };
+		59B2C4102FD311AC00F849CE /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C40C2FD311AC00F849CE /* UnitType.swift */; };
+		59B2C4112FD311AC00F849CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B2C4092FD311AC00F849CE /* Assets.xcassets */; };
+		59B2C4152FD311D900F849CE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C4142FD311D900F849CE /* Product.swift */; };
+		59B2C4192FD97D8500F849CE /* SeaerchableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2C4182FD97D7B00F849CE /* SeaerchableList.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		59B2C3FB2FD2D2F400F849CE /* SmartConvert */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SmartConvert;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		5908E6362FDE48A500F9BF28 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		5908E6442FE565EE00F9BF28 /* ConvertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertViewModel.swift; sourceTree = "<group>"; };
+		5908E64C2FE5917600F9BF28 /* ConvertResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertResult.swift; sourceTree = "<group>"; };
+		5908E64F2FE5A4D700F9BF28 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		597C76E42FF654F400AAD5E8 /* IngredientEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientEntry.swift; sourceTree = "<group>"; };
+		597C76E62FF671F100AAD5E8 /* SmartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButton.swift; sourceTree = "<group>"; };
+		597C76E92FF68DDD00AAD5E8 /* SmartTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTextField.swift; sourceTree = "<group>"; };
+		597C76EB2FF6968A00AAD5E8 /* UnitPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitPicker.swift; sourceTree = "<group>"; };
+		597C76ED2FF697C500AAD5E8 /* ProductPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPicker.swift; sourceTree = "<group>"; };
+		597C76EF2FF69CF200AAD5E8 /* UnitHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitHStack.swift; sourceTree = "<group>"; };
+		59B2C3F92FD2D2F400F849CE /* SmartConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B2C4092FD311AC00F849CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59B2C40A2FD311AC00F849CE /* ConvertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertView.swift; sourceTree = "<group>"; };
+		59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartConvertApp.swift; sourceTree = "<group>"; };
+		59B2C40C2FD311AC00F849CE /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
+		59B2C4142FD311D900F849CE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		59B2C4182FD97D7B00F849CE /* SeaerchableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaerchableList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		59B2C3F62FD2D2F400F849CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5908E6552FE5CB1400F9BF28 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5908E6462FE565F600F9BF28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5908E6442FE565EE00F9BF28 /* ConvertViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5908E64E2FE59B5E00F9BF28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5908E64F2FE5A4D700F9BF28 /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		597C76E82FF6720900AAD5E8 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				597C76E62FF671F100AAD5E8 /* SmartButton.swift */,
+				597C76EF2FF69CF200AAD5E8 /* UnitHStack.swift */,
+				597C76E92FF68DDD00AAD5E8 /* SmartTextField.swift */,
+				597C76EB2FF6968A00AAD5E8 /* UnitPicker.swift */,
+				597C76ED2FF697C500AAD5E8 /* ProductPicker.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		59B2C3F02FD2D2F400F849CE = {
 			isa = PBXGroup;
 			children = (
-				59B2C3FB2FD2D2F400F849CE /* SmartConvert */,
+				59B2C40D2FD311AC00F849CE /* SmartConvert */,
 				59B2C3FA2FD2D2F400F849CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +100,41 @@
 				59B2C3F92FD2D2F400F849CE /* SmartConvert.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59B2C40D2FD311AC00F849CE /* SmartConvert */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40B2FD311AC00F849CE /* SmartConvertApp.swift */,
+				59B2C4092FD311AC00F849CE /* Assets.xcassets */,
+				59B2C4132FD311BE00F849CE /* Model */,
+				59B2C4122FD311B100F849CE /* View */,
+				5908E6462FE565F600F9BF28 /* ViewModel */,
+				5908E64E2FE59B5E00F9BF28 /* Services */,
+			);
+			path = SmartConvert;
+			sourceTree = "<group>";
+		};
+		59B2C4122FD311B100F849CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40A2FD311AC00F849CE /* ConvertView.swift */,
+				59B2C4182FD97D7B00F849CE /* SeaerchableList.swift */,
+				597C76E82FF6720900AAD5E8 /* components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59B2C4132FD311BE00F849CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59B2C40C2FD311AC00F849CE /* UnitType.swift */,
+				59B2C4142FD311D900F849CE /* Product.swift */,
+				597C76E42FF654F400AAD5E8 /* IngredientEntry.swift */,
+				5908E6362FDE48A500F9BF28 /* Measure.swift */,
+				5908E64C2FE5917600F9BF28 /* ConvertResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +152,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				59B2C3FB2FD2D2F400F849CE /* SmartConvert */,
-			);
 			name = SmartConvert;
 			packageProductDependencies = (
+				5908E6542FE5CB1400F9BF28 /* RealmSwift */,
 			);
 			productName = SmartConvert;
 			productReference = 59B2C3F92FD2D2F400F849CE /* SmartConvert.app */;
@@ -94,6 +184,9 @@
 			);
 			mainGroup = 59B2C3F02FD2D2F400F849CE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5908E6512FE5CB1400F9BF28 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 59B2C3FA2FD2D2F400F849CE /* Products */;
 			projectDirPath = "";
@@ -109,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B2C4112FD311AC00F849CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +213,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5908E6372FDE48B200F9BF28 /* Measure.swift in Sources */,
+				597C76EE2FF697CB00AAD5E8 /* ProductPicker.swift in Sources */,
+				597C76EA2FF68DEB00AAD5E8 /* SmartTextField.swift in Sources */,
+				59B2C40E2FD311AC00F849CE /* ConvertView.swift in Sources */,
+				59B2C4152FD311D900F849CE /* Product.swift in Sources */,
+				59B2C40F2FD311AC00F849CE /* SmartConvertApp.swift in Sources */,
+				5908E6452FE565EE00F9BF28 /* ConvertViewModel.swift in Sources */,
+				5908E64D2FE5917600F9BF28 /* ConvertResult.swift in Sources */,
+				597C76EC2FF6969200AAD5E8 /* UnitPicker.swift in Sources */,
+				597C76F02FF69CFA00AAD5E8 /* UnitHStack.swift in Sources */,
+				59B2C4192FD97D8500F849CE /* SeaerchableList.swift in Sources */,
+				597C76E72FF671F700AAD5E8 /* SmartButton.swift in Sources */,
+				59B2C4102FD311AC00F849CE /* UnitType.swift in Sources */,
+				5908E6502FE5A4D700F9BF28 /* RealmService.swift in Sources */,
+				597C76E52FF6550C00AAD5E8 /* IngredientEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5908E6512FE5CB1400F9BF28 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5908E6542FE5CB1400F9BF28 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5908E6512FE5CB1400F9BF28 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59B2C3F12FD2D2F400F849CE /* Project object */;
 }
